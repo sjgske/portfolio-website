@@ -38,7 +38,7 @@ ul {
 /* Header */
 .header {
   position: relative;
-  padding: 32px 8vw;
+  padding: 36px 8vw;
 }
 
 .name {
@@ -104,21 +104,26 @@ ul {
   transition: max-width 200ms ease-in;
 }
 
+.menu-group button:hover::after {
+  max-width: 100%;
+}
+
 .menu-group button.active::after {
   max-width: 100%;
 }
 
+/* TODO: text animation */
 .resume-link {
   margin-left: auto;
 }
 
 /* Main - Content */
-.index-content {
-  display: none;
-}
-
 .index-text {
   margin-bottom: 20px;
+}
+
+.works-content {
+  display: none;
 }
 
 .works-title {
