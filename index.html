@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Danheon Kim®</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
@@ -12,13 +17,18 @@
         <a href="/">danheon Kim.</a>
       </h1>
       <div class="info">
-        <a href="mailto:eksgjs3847@gmail.com"> eksgjs3847@gmail.com </a>
-        <p>2022<sup>®</sup></p>
+        <a class="email" href="mailto:eksgjs3847@gmail.com">
+          eksgjs3847@gmail.com
+        </a>
+        <p>Seoul, Korea</p>
+        <p class="year">2022<sup>®</sup></p>
       </div>
       <div class="chanel">
         <ul class="links">
           <li><a href="https://github.com/sjgske">Github →</a></li>
-          <li><a href="https://twitter.com/sjgske">Twitter →</a></li>
+          <li>
+            <a href="https://twitter.com/sjgske">Twitter →</a>
+          </li>
         </ul>
         <p class="perks"></p>
       </div>
@@ -26,7 +36,7 @@
 
     <main class="main">
       <nav class="menu">
-        <h1 class="srOnly">Menu</h1>
+        <h1 class="sr-only">Menu</h1>
         <div class="menu-group">
           <button class="btn-index" type="button">Index</button>
           <button class="btn-works" type="button">Works</button>
@@ -38,14 +48,17 @@
         </div>
       </nav>
 
-      <div class="index-content">
+      <div class="index-content active">
         <p class="index-text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
-          voluptatibus inventore impedit ex fugiat? Voluptas doloribus pariatur
-          sed aut natus accusantium, earum rerum. Voluptatum, molestiae.
-          Adipisci architecto quas molestias quisquam!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
+          quae deleniti saepe repellat est! Soluta, quas. Placeat provident
+          esse, error recusandae blanditiis impedit fuga ipsam ipsa sint,
+          commodi similique! A cupiditate, vitae natus minima commodi autem
+          fugiat dolore totam doloribus pariatur, laborum sequi aliquid in
+          exercitationem veniam officiis sed quod tenetur? Tempora ullam,
+          voluptate quod ut deserunt fugiat dicta rem.
         </p>
-        <ul class="index-menus">
+        <ul class="index-menu">
           <li><button type="button">Language</button></li>
           <li><button type="button">Skills</button></li>
           <li><button type="button">Work experience</button></li>
@@ -54,21 +67,27 @@
       </div>
 
       <div class="works-content">
-        <h3 class="works-title">JavaScript app</h3>
-        <ul class="works-list">
-          <li><button type="button">미니 쇼핑몰 앱</button></li>
-          <li><button type="button">카페 메뉴 상태관리 앱</button></li>
-          <li><button type="button">Chrome Momentum App</button></li>
-          <li><button type="button">Agreements & Dropdown form</button></li>
-          <li><button type="button">랜덤 짤 생성 서비스</button></li>
-        </ul>
+        <article class="works-category">
+          <h3 class="works-title">JavaScript app</h3>
+          <ul class="works-list">
+            <li><button type="button">Mini shopping mall app</button></li>
+            <li><button type="button">Cafe menu management app</button></li>
+            <li><button type="button">Chrome Momentum App</button></li>
+            <li><button type="button">Agreements & Dropdown form</button></li>
+            <li><button type="button">Random meme generator</button></li>
+          </ul>
+        </article>
 
-        <h3 class="works-title">UI</h3>
-        <ul class="works-list">
-          <li><button type="button">오늘의 집 UI Clone</button></li>
-          <li><button type="button">Apple website scroll animation</button></li>
-          <li><button type="button">CSS Animation challenge</button></li>
-        </ul>
+        <article class="works-category">
+          <h3 class="works-title">UI</h3>
+          <ul class="works-list">
+            <li><button type="button">Today's house UI Clone</button></li>
+            <li>
+              <button type="button">Apple website scroll animation</button>
+            </li>
+            <li><button type="button">CSS Animation challenge</button></li>
+          </ul>
+        </article>
       </div>
     </main>
   </body>
