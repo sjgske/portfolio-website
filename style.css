@@ -38,7 +38,11 @@ ul {
 /* Header */
 .header {
   position: relative;
+<<<<<<< HEAD
   padding: 36px 8vw;
+=======
+  padding: 32px 8vw;
+>>>>>>> 187a0192c48130f78a6606eb5561fe9fa46859c0
 }
 
 .name {
@@ -104,26 +108,41 @@ ul {
   transition: max-width 200ms ease-in;
 }
 
+<<<<<<< HEAD
 .menu-group button:hover::after {
   max-width: 100%;
 }
 
+=======
+>>>>>>> 187a0192c48130f78a6606eb5561fe9fa46859c0
 .menu-group button.active::after {
   max-width: 100%;
 }
 
+<<<<<<< HEAD
 /* TODO: text animation */
+=======
+>>>>>>> 187a0192c48130f78a6606eb5561fe9fa46859c0
 .resume-link {
   margin-left: auto;
 }
 
 /* Main - Content */
+<<<<<<< HEAD
 .index-text {
   margin-bottom: 20px;
 }
 
 .works-content {
   display: none;
+=======
+.index-content {
+  display: none;
+}
+
+.index-text {
+  margin-bottom: 20px;
+>>>>>>> 187a0192c48130f78a6606eb5561fe9fa46859c0
 }
 
 .works-title {
