@@ -42,6 +42,7 @@ ul {
 }
 
 .name {
+  width: fit-content;
   height: 36px;
   margin-bottom: 30px;
 }
@@ -56,7 +57,15 @@ ul {
   margin-bottom: 20px;
 }
 
-.info .year {
+.email-emoji {
+  color: transparent;
+}
+
+.email:hover > .email-emoji {
+  color: #292b2c;
+}
+
+.year {
   position: absolute;
   height: 36px;
   top: 30px;
@@ -91,11 +100,11 @@ ul {
   margin-bottom: 32px;
 }
 
-.menu-group button {
+.menu-group .menu {
   margin-right: 14px;
 }
 
-.menu-group button::after {
+.menu-group .menu::after {
   display: block;
   content: "";
   max-width: 0;
@@ -104,26 +113,31 @@ ul {
   transition: max-width 200ms ease-in;
 }
 
-.menu-group button:hover::after {
+.menu-group .menu:hover::after {
   max-width: 100%;
 }
 
-.menu-group button.active::after {
+.menu-group .menu.active::after {
   max-width: 100%;
 }
 
 /* TODO: text animation */
 .resume-link {
   margin-left: auto;
+  color: #0071e3;
+}
+
+.resume-link i {
+  font-size: 12px;
+}
+
+.resume-link:hover {
+  color: #0077ed;
 }
 
 /* Main - Content */
 .index-text {
   margin-bottom: 20px;
-}
-
-.works-content {
-  display: none;
 }
 
 .works-title {
