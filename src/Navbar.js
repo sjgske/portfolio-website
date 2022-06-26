@@ -14,7 +14,7 @@ const Navbar = () => {
         <div>
           <FontAwesomeIcon
             icon={faBars}
-            className="nav-menu-icon"
+            className={isActive ? "nav-menu-icon hidden" : "nav-menu-icon"}
             onClick={() => {
               setIsActive(true);
             }}
