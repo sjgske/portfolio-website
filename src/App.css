@@ -37,7 +37,7 @@ ul {
 
 code {
   padding: 0.2rem;
-  margin-right: 0.2rem;
+  margin: 0 0.3rem;
   border-radius: 4px;
   background: #f5f5f5;
   color: slateblue;
@@ -207,12 +207,16 @@ code.kor {
   transition: 200ms all ease-in;
 }
 
-.project h4 {
-  font-size: 1.2rem;
+.project .title {
   margin-bottom: 2rem;
 }
 
-.project h4 a::after {
+.project .title h4 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.project .title h4 a::after {
   content: "link";
   margin-left: 8px;
   font-size: 0.8rem;
@@ -220,6 +224,10 @@ code.kor {
   border-radius: 4px;
   background-color: #f3f0ff;
   color: #333;
+}
+
+.project .title span {
+  font-size: 0.9rem;
 }
 
 .project p {
@@ -230,6 +238,10 @@ code.kor {
 .project p::before {
   content: "•";
   margin-right: 8px;
+}
+
+.skills ul li {
+  margin-bottom: 0.5rem;
 }
 
 .education .item {

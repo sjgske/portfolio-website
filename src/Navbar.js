@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="Nav">
       <div className="nav-container">
         <h1>
-          <a href="/">danheon®</a>
+          <a href="/portfolio-website">danheon®</a>
         </h1>
         <div>
           <FontAwesomeIcon
